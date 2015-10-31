@@ -438,14 +438,18 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Nanjing Xiaheng Network System Co., Ltd. (24N474AU9T)";
+				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/lib",
 				);
 				INFOPLIST_FILE = alipaydemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = wavtest.iteasysoft.com.alipaydemo;
+				PRODUCT_BUNDLE_IDENTIFIER = grwweb.xiaheng.net;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "6caebb5d-5a77-431c-97e9-eeee59db5d74";
 				SWIFT_OBJC_BRIDGING_HEADER = "/Users/wangxiaoqing/Downloads/xiaheng/swiftpaydemo/alipaydemo/jyjp-Bridging-Header.h";
 			};
 			name = Debug;
@@ -454,14 +458,18 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Nanjing Xiaheng Network System Co., Ltd. (24N474AU9T)";
+				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/lib",
 				);
 				INFOPLIST_FILE = alipaydemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = wavtest.iteasysoft.com.alipaydemo;
+				PRODUCT_BUNDLE_IDENTIFIER = grwweb.xiaheng.net;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "6caebb5d-5a77-431c-97e9-eeee59db5d74";
 				SWIFT_OBJC_BRIDGING_HEADER = "/Users/wangxiaoqing/Downloads/xiaheng/swiftpaydemo/alipaydemo/jyjp-Bridging-Header.h";
 			};
 			name = Release;
@@ -533,6 +541,7 @@
 				1618F41A1BE2081200514326 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1618F41B1BE2081200514326 /* Build configuration list for PBXNativeTarget "alipaydemoTests" */ = {
 			isa = XCConfigurationList;
@@ -541,6 +550,7 @@
 				1618F41D1BE2081200514326 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1618F41E1BE2081200514326 /* Build configuration list for PBXNativeTarget "alipaydemoUITests" */ = {
 			isa = XCConfigurationList;
@@ -549,6 +559,7 @@
 				1618F4201BE2081200514326 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

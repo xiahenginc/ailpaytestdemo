@@ -43,7 +43,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     typealias onWxLoginResult = (JSON!) ->Void
     var alipayResult:onWxLoginResult?
     
-    func application(application: UIApplication, openURL url: NSURL, sourceApplication: String?, annotation: AnyObject?) -> Bool {
+    func application(application: UIApplication, openURL url: NSURL, sourceApplication: String?, annotation: AnyObject) -> Bool {
 
         if url.host == "safepay" {
             AlipaySDK.defaultService().processOrderWithPaymentResult(url, standbyCallback: {(result) -> Void in

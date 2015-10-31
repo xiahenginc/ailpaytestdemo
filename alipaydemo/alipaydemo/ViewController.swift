@@ -1,4 +1,4 @@
-//
+ //
 //  ViewController.swift
 //  alipaydemo
 //
@@ -8,15 +8,19 @@
 
 import UIKit
 
-class ViewController: UIViewController,UIWebViewDelegate {
+class ViewController: UIViewController {
 
     @IBOutlet weak var myWebView: UIWebView!
-    var url = ""
-
+    var url = "http://192.168.1.104:3000/"
+   // var url = "http://www.guorouwang.com/wap_ios3"
+    var webjs: WebJsHelper?
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        self.myWebView?.delegate = self;
+        webjs = WebJsHelper();
+        webjs?.createBridge(self.myWebView, vc: self);
+        //self.myWebView?.delegate = self;
+        loadurl();
         // Do any additional setup after loading the view, typically from a nib.
     }
 
