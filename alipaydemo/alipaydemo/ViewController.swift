@@ -11,8 +11,9 @@ import UIKit
 class ViewController: UIViewController {
 
     @IBOutlet weak var myWebView: UIWebView!
-    var url = "http://192.168.1.104:3000/"
+    //var url = "http://192.168.1.104:3000/"
    // var url = "http://www.guorouwang.com/wap_ios3"
+    var url = "http://alipaydemo.czjcd.com/"
     var webjs: WebJsHelper?
     
     override func viewDidLoad() {
