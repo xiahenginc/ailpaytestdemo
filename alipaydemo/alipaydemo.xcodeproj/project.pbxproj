@@ -447,9 +447,9 @@
 				INFOPLIST_FILE = alipaydemo/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = grwweb.xiaheng.net;
+				PRODUCT_BUNDLE_IDENTIFIER = alipaytestdemo.xiaoheng.net;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "6caebb5d-5a77-431c-97e9-eeee59db5d74";
+				PROVISIONING_PROFILE = "6be5c0bd-3efd-41d8-b4b3-e2ee14d20dee";
 				SWIFT_OBJC_BRIDGING_HEADER = "/Users/wangxiaoqing/Downloads/xiaheng/swiftpaydemo/alipaydemo/jyjp-Bridging-Header.h";
 			};
 			name = Debug;
@@ -467,9 +467,9 @@
 				INFOPLIST_FILE = alipaydemo/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = grwweb.xiaheng.net;
+				PRODUCT_BUNDLE_IDENTIFIER = alipaytestdemo.xiaoheng.net;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "6caebb5d-5a77-431c-97e9-eeee59db5d74";
+				PROVISIONING_PROFILE = "6be5c0bd-3efd-41d8-b4b3-e2ee14d20dee";
 				SWIFT_OBJC_BRIDGING_HEADER = "/Users/wangxiaoqing/Downloads/xiaheng/swiftpaydemo/alipaydemo/jyjp-Bridging-Header.h";
 			};
 			name = Release;

@@ -35,7 +35,7 @@ class WebJsHelper:NSObject {
             if let orderinfo = json["param1"].string{
             
                 print("\(orderinfo)");
-                AlipaySDK.defaultService().payOrder(orderinfo, fromScheme: "alipaygrw") { (result: [NSObject: AnyObject]!) -> Void in
+                AlipaySDK.defaultService().payOrder(orderinfo, fromScheme: "alipaydemo") { (result: [NSObject: AnyObject]!) -> Void in
                 var resultTxt:String!="failed"
                 var txt:String! = "支付失败"
                 if (result != nil) {
